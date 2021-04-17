@@ -1,16 +1,12 @@
-
-import { useState } from 'react';
-import './App.css';
-import Basket from './companents/Basket';
-
+import "./App.css"
+import Chat from "./companents/chat"
 
 function App() {
-return(
-  <>
- <Basket />
-</>
-)
-
+  return (
+    <>
+      <Chat />
+    </>
+  )
 }
 
-export default App;
+export default App

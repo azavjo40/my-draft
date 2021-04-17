@@ -1,0 +1,39 @@
+.chatCont {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  .chat {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .name {
+      width: 40%;
+    }
+    .message {
+      width: 40%;
+      height: 30px;
+    }
+    button {
+      width: 20%;
+    }
+  }
+  .chatMess {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h3 {
+        padding: 0px;
+        margin: 0px;
+      }
+    }
+  }
+}
